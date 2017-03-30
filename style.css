@@ -118,7 +118,7 @@ h2 {
 }
 
 div.about {
-	background-color: rgba(160, 160, 160, 0.5 );
+	background-color: rgba(160, 160, 160, 0.5);
 	width: 80%;
 	margin: 0 auto;
 	margin: 30px 10% 0 10%;
@@ -177,6 +177,34 @@ div.window {
  	margin: 15px;
 
 }
+
+/*---------Contact Styles------*/
+
+
+ul.contact {
+	width: 80%;
+	margin: 25px 10% 0 10%;
+	background-color: rgba(160, 160, 160, 0.3 );
+	border-bottom: 5px solid black;
+}
+
+ul.contact li {
+	margin: 8px;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+ul.contact li a {
+	text-decoration: none;
+	color: black;
+}
+
+ul.contact li a:hover {
+	color: grey;
+}
+
+
 
 	/* Large Devices, Wide Screens */
 	@media only screen and (min-width: 993px) and (max-width: 1200px) {
