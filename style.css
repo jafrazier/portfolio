@@ -1,0 +1,233 @@
+body {
+	/*font-family: 'Lobster', cursive, serif;*/
+	background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
+	background-position: center;
+	background-size: 105%;
+	background-repeat: no-repeat;
+}
+
+/*----------navagation---------*/
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: black;
+}
+
+ul.nav {
+  	/*width: 525px;*/
+}
+
+ul.nav li {
+  	display: inline;
+}
+
+ul.nav li a {
+	font-size: 30px;
+  	text-decoration: none;
+  	padding:5px 0;
+  	width: 100px;
+  	color: #eee;
+  	float: left;
+  	text-align: center;
+  	border-right: 1px solid #fff;
+}
+
+a.active {
+	background-color: red;
+}
+
+
+ul.nav li a:hover {
+  	background: #a2b3a1;
+  	color: #000
+}
+
+ul.social {
+	float: right;	
+}
+
+ul.social li {
+	display: inline;
+}
+
+.fa {
+	padding: 12px;
+	font-size: 1px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background-color: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background-color: #55ACEE;
+	color: white;
+}
+
+.fa-linkedin {
+	background-color: #0077b5;
+	color: white;
+}
+
+
+div.profile {
+	text-align: center;
+	background-color: rgba(160, 160, 160, 0.3 );
+	background-position: center;
+	background-size: 100%;
+	color: black;
+	padding: 25px 0;
+	border-bottom: solid;
+	border-width: 6px;
+	width: 80%;
+	margin: 0 10% 0 10%;
+	margin-top: 150px;
+
+}
+
+img { 
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+	border: solid;
+	border-width: 4px;
+	border-color: black;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 600;
+
+}
+
+h2 {
+	text-decoration: underline;
+	font-size: 25px;
+	font-weight: 600;
+
+}
+
+div.about {
+	background-color: rgba(160, 160, 160, 0.5 );
+	width: 80%;
+	margin: 0 auto;
+	margin: 30px 10% 0 10%;
+	color: black;  
+	padding: 5px;
+	border-bottom: 5px solid black;
+}
+
+h4 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 25px;
+	width: 100%;
+	font-weight: 600;
+}
+
+
+
+/*Gallery page css*/
+
+div.gallery {
+	margin: 0 10% 0 10%;
+	
+
+}
+
+h1.gal {
+	width: 80%; 
+	margin: 0 10% 0 10%;
+	margin-top: 75px;
+	margin-bottom: 25px;
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	padding: 15px;
+	background-color: rgba(160, 160, 160, 0.5 );
+	border-bottom: 5px solid black;
+}
+
+
+
+
+div.window {
+ 	background-image: url('http://www.bqetours.com/wp-content/uploads/2014/11/Blogpost1-main-photo.jpg');
+ 	width: 29.8%;
+ 	/*height: 100%;*/
+ 	height: 280px;
+ 	float: left;
+ 	border: 5px solid black;
+ 	/*ackground-size: contain;*/
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	margin: 15px;
+
+}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    	body {
+    		background-color: red;
+    	}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width: 769px) and (max-width: 992px) {
+    	body {
+    		background-color: blue;
+    	}
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+    	body {
+    		background-color: yellow;
+    	}
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width: 50px) and (max-width: 480px) {
+    	body {
+    		background-color: pink;
+    	}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

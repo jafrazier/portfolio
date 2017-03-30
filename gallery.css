@@ -1,0 +1,17 @@
+h1.gal {
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	background: grey;
+}
+
+
+div.batman {
+ 	background-image: url('https://s-media-cache-ak0.pinimg.com/736x/89/2f/7d/892f7d36162123ab12344958a2cf5f2c.jpg');
+ 	width: 250px;
+ 	height: 250px;
+ 	float: left;
+ 	border:5px solid yellow;
+ 	background-size: 100%;
+ 	margin: 20px;
+}
