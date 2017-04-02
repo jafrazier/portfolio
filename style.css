@@ -2,8 +2,9 @@ body {
 	/*font-family: 'Lobster', cursive, serif;*/
 	background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
 	background-position: center;
-	background-size: 105%;
+	background-size: cover;
 	background-repeat: no-repeat;
+
 }
 
 /*-----------------------navagation--------------------*/
@@ -90,7 +91,7 @@ div.profile {
 	border-width: 6px;
 	width: 80%;
 	margin: 0 10% 0 10%;
-	margin-top: 150px;
+	margin-top: 125px;
 
 }
 
@@ -147,8 +148,8 @@ div.gallery {
 h1.gal {
 	width: 80%; 
 	margin: 0 10% 0 10%;
-	margin-top: 75px;
-	margin-bottom: 25px;
+	margin-top: 65px;
+	margin-bottom: 20px;
 	color: black;
 	font-size: 50px;
 	text-align: center;
@@ -163,11 +164,9 @@ h1.gal {
 div.window {
  	background-image: url('http://www.bqetours.com/wp-content/uploads/2014/11/Blogpost1-main-photo.jpg');
  	width: 29.8%;
- 	/*height: 100%;*/
  	height: 280px;
  	float: left;
  	border: 5px solid black;
- 	/*ackground-size: contain;*/
  	background-position: center;
  	background-repeat: no-repeat;
  	margin: 15px;
@@ -200,12 +199,13 @@ ul.contact li a:hover {
 	color: grey;
 }
 
-
+/*-----------------------Responsive MQ-------------------------*/
 
 	/* Large Devices, Wide Screens */
 	@media only screen and (min-width: 993px) and (max-width: 1200px) {
     	body {
-    		background-color: red;
+    		background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
+    		background-size: cover;
     	}
 
     }
@@ -213,24 +213,43 @@ ul.contact li a:hover {
     /* Medium Devices, Desktops */
     @media only screen and (min-width: 769px) and (max-width: 992px) {
     	body {
-    		background-color: blue;
+    		background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
+    		background-size: cover;
     	}
+
 
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width: 481px) and (max-width: 768px) {
     	body {
-    		background-color: yellow;
+    		background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
+    		background-size: cover;
     	}
 
     }
 
     /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width: 50px) and (max-width: 480px) {
+    @media only screen and (min-width: 50px) and (max-width: 575px) {
     	body {
-    		background-color: pink;
+    		background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
+    		background-size: cover;
     	}
+
+    	ul.nav li a {
+			font-size: 20px;
+  			text-decoration: none;
+  			padding:5px 0;
+  			width: 20%;
+  			color: #eee;
+  			float: left;
+  			text-align: center;
+  			border-right: 1px solid #fff;
+  		}
+
+  		ul.social {
+			float: left;	
+		}
     }
 
 
