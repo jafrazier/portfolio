@@ -196,41 +196,19 @@ ul.contact li a:hover {
 	color: rgba(255, 0, 0, 0.7);
 }
 
+div.fuller {
+	width: 100%;
+	height: 100px;
+}
+
 /*-----------------------Responsive MQ-------------------------*/
-
-	/* Large Devices, Wide Screens */
-	@media only screen and (min-width: 993px) and (max-width: 1200px) {
-    	body {
-    		background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
-    		background-size: cover;
-    	}
-
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width: 769px) and (max-width: 992px) {
-    	body {
-    		background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
-    		background-size: cover;
-    	}
-
-
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width: 481px) and (max-width: 768px) {
-    	body {
-    		background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
-    		background-size: cover;
-    	}
-
-    }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width: 50px) and (max-width: 575px) {
     	body {
     		background-image: url('http://www.nycgo.com/images/boroughs/7696/2brooklynborostill__large.jpg');
-    		background-size: cover;
+    		background-size: 120% 100%;
+    		
     	}
 
     	ul.nav li a {
